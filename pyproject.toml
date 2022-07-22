@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["abzobak <abzobak@gmail.com>"]
+description = ""
+name = "diced"
+version = "0.1.0"
+[tool.poetry.dependencies]
+colored = "^1.4"
+python = "^3.8"
+tabulate = "^0.8.6"
+termcolor = "^1.1"
+[tool.poetry.dev-dependencies]
